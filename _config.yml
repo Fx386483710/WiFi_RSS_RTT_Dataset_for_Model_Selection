@@ -1,0 +1,12 @@
+url_root: http://davetaz.github.io/open-data-template
+
+title: Transactions over £25,000 in the Foreign and Commonwealth Office
+description: A monthly-updated list of all financial transactions spending over £25,000 made by the Foreign and Commonwealth Office, as part of the Government's commitment to transparency in expenditure.
+
+publisher_text: Foreign and Commonwealth Office
+publisher_url: http://data.gov.uk/publisher/foreign-and-commonwealth-office
+
+license_text: UK Open Government Licence (OGL)
+license_url: http://reference.data.gov.uk/id/open-government-licence
+
+frequency: Monthly
