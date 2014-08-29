@@ -30,7 +30,7 @@ nav {
 #topbar .brand {
 	position: absolute;
 	right: 0;
-	padding: 10px 20px 10px;
+	padding: 0px 20px 10px;
 }
 
 /** DATASET TITLE **/
@@ -43,6 +43,42 @@ header {
 	color: #fff;
 	background-color: #00b7ff;
 	display: block;
+}
+
+/** DATA ITEMS **/
+
+.dataitem {
+	height: 120px;
+	width: 40%;
+	display: inline-block;
+	border: 1px solid #1d1d1d;
+	margin: 20px;
+}
+
+.download-block {
+	width: 120px;
+	background-color: #00b7ff;
+	height: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+.fa {
+	color: white;
+	display: block;
+	padding-top: 20px;
+}
+
+.download-block a {
+	color: white;
+	text-decoration: none;	
+}
+
+.description-block {
+	display: inline-block;
+	height: 120px;
+	vertical-align: top;
+	padding-left: 10px;
 }
 
 /** Footer **/

@@ -1,0 +1,26 @@
+<div property='dcat:distribution' typeof='dcat:Distribution'>
+<h1 property="dct:title">Data Download</h1>
+{% for w in (1..10) %}
+	{% for p in site.pages %}
+		{% if p.category == "data" and p.weight == w %}
+		<article class="dataitem">
+			<div class="download-block">
+			<a class="datalink" property='dcat:accessURL' href="{{ site.url_root }}{{ p.url | remove: 'index.html' }}"><i class="fa fa-file-text fa-3x"></i>
+			<span property='dcat:mediaType' content='{{ p.media_type }}'>
+				<h3 property="rdfs:label" style="display: none">Type</h3>
+				{{ p.type }}
+			</span>
+			</a>
+			</div>
+			<div class="description-block">
+				<h3>{{ p.title }}</h3>
+				<p>{{ p.description }}</p>
+			</div>
+<!--			<span property='dct:issued'>
+				<h3 property="rdfs:label">Last modified:</h3>
+			{{ p.last_modified_at }}
+			</span>-->
+		</article>
+		{% endif %}
+	{% endfor %}
+{% endfor %}
