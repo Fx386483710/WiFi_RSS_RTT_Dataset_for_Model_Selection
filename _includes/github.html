@@ -7,7 +7,9 @@
 
 	<p>All comments and subsequent fixes will be <a href="{{ site.github.issues_url }}" target="_blank">logged openly</a> such that you can easily see the provenance of each object in this dataset.</p>
 
-	<p>Last update: {{ r.pushed_at }}</p>
-         <br/><br/>
+	<p class="lastUpdate">Last update: {{ r.pushed_at }}</p>
+        
+        <h2>Subscribe to changes</h2>
+        <p><a href="{{ r.html_url }}/commits/master.atom"></a><img src="img/rss.png" width="100px"/></a> Subscribe to changes in this repository.</p>
 	{% endif %}
 {% endfor %}
