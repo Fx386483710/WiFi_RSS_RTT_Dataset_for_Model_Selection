@@ -81,6 +81,10 @@ header {
 	padding-left: 10px;
 }
 
+#lastUpdate {
+	text-align: right;
+}
+
 /** Footer **/
 
 footer {
