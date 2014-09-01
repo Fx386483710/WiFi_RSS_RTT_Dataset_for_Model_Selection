@@ -81,6 +81,14 @@ header {
 	padding-left: 10px;
 }
 
+.objectHistory {
+	text-align: right;
+}
+.objectHistory a {
+	text-decoration: none;
+	color: #00b7ff;
+}
+
 .lastUpdate {
 	text-align: right;
 }
