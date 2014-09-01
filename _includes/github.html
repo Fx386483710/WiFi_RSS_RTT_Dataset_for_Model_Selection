@@ -6,10 +6,9 @@
 	<p>If you find an error in this dataset, have a comment or request, please log this in the <a href="{{ site.github.issues_url }}" target="_blank">Dataset Issue Tracer</a>.</p>
 
 	<p>All comments and subsequent fixes will be <a href="{{ site.github.issues_url }}" target="_blank">logged openly</a> such that you can easily see the provenance of each object in this dataset.</p>
-
-	<p class="lastUpdate">Last update: {{ r.pushed_at }}</p>
         
         <h2>Subscribe to changes</h2>
         <p><a href="{{ r.html_url }}/commits/master.atom"></a><img src="img/rss.png" width="20px"/></a> Subscribe to changes in this dataset.</p>
+        <p class="lastUpdate">Last update: {{ r.pushed_at }}</p>
 	{% endif %}
 {% endfor %}
