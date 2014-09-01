@@ -4,6 +4,13 @@
 
 <p>All comments and subsequent fixes will be <a href="{{ site.github.issues_url }}" target="_blank">logged openly</a> such that you can easily see the provenance of each object in this dataset.</p>
 
+{% for r in site.github.public_repositories % }
+	{% if r.name == site.github.repository_name %}
+		<p>Last update: {{ r.updated_at }}</p>
+	{% endif %}
+{% endfor %}
+
+
 {{ site.github.repository_name }}
 
 <br/><br/>
