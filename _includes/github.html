@@ -6,7 +6,8 @@
 
 {% for r in site.github.public_repositories %}
 	{% if r.name == site.github.repository_name %}
-		<p>Last update: {{ r.updated_at }}</p>
+	<p>Last update: {{ r.updated_at }}</p>
+	{{ r }}
 	{% endif %}
 {% endfor %}
 
