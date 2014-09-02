@@ -1,5 +1,5 @@
-open-data-template
-==================
+data-publishing-template
+========================
 
 Provides a template for publishing a high quality open dataset. Each repository is designed to host a single dataset, consisting of one or more files.
 
@@ -13,7 +13,7 @@ To create a dataset with open data certificate
 
 ```
 category: data
-filename: filname.csv
+filename: filename.csv
 weight: 2
 title: June 2014
 description: Transactions in June 2014
