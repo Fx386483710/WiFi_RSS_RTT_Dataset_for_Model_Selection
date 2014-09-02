@@ -1,12 +1,3 @@
----
-layout: none
-title: June 2014
-description: Transactions in June 2014
-type: text/csv
-category: data
-link: /june_2014
-weight: 2
----
 Department,Entity,Payment date,Transaction Number,Invoice Amount,Supplier,Account Description
 FCO,FCO,20/06/2014,"4,734,497","968,576.80",G4S RISK MANAGEMENT LTD FORMALLY ARMOURGROUP SERVICES LTD,UK Guarding Contracts Overseas
 FCO,FCO,05/06/2014,"4,718,963","883,053.40",GARDA WORLD LTD,UK Mobile Guarding Contract overseas

@@ -5,7 +5,7 @@
 		{% if p.category == "data" and p.weight == w %}
 		<article class="dataitem">
 			<div class="download-block">
-			<a class="datalink" property='dcat:accessURL' href="{{ site.url_root }}{{ p.url | remove: 'index.html' }}"><i class="fa fa-file-text fa-3x"></i>
+			<a class="datalink" property='dcat:accessURL' href="{{ site.github.url }}{{ p.url | remove: '.data' }}.csv"><i class="fa fa-file-text fa-3x"></i>
 			<span property='dcat:mediaType' content='{{ p.media_type }}'>
 				<h3 property="rdfs:label" style="display: none">Type</h3>
 				{{ p.type }}

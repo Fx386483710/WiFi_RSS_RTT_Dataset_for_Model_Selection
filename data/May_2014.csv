@@ -1,12 +1,3 @@
----
-layout: none
-title: May 2014
-description: Transactions in May 2014
-type: text/csv
-category: data
-link: /may_2014
-weight: 1
----
 Department,Entity,Payment date,Transaction Number,Invoice Amount,Supplier,Account Description
 FCO,FCO,16/05/2014,4695811,2500000.00,COMPUTACENTER UK LTD,Temporary Staff (Admin and Clerical Only)
 FCO,FCO,14/05/2014,4694278,1375897.00,HEWLETT PACKARD LTD,Specialist Contractors
