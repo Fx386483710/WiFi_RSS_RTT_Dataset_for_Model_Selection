@@ -5,9 +5,11 @@ Provides a template for publishing a high quality open dataset. Each repository 
 
 To create a dataset with open data certificate
 
-1) Upload <b>data files</b> into the <b>data/</b> directory.
+1) Fork the <a href="https://github.com/theodi/data-publishing-template" target="_blank">template repository</a>
 
-2) For each file uploaded you need to add a <b>.data</b> file in the data directory that specifies the metadata for the file, this file should look like the examples and contain the following fields. Note that the category <b>must not</b> be changed from data.
+2) Upload <b>data files</b> into the <b>data/</b> directory.
+
+3) For each file uploaded you need to add a <b>.data</b> file in the data directory that specifies the metadata for the file, this file should look like the examples and contain the following fields. Note that the category <b>must not</b> be changed from data.
 
 ```
 category: data
@@ -26,11 +28,11 @@ weight: The position that the file is displayed on the page, 1 being first.
 type: The IANA mime type of the file, e.g. text/csv, application/json etc.
 ```
 
-2) Edit <b>_config.yml</b> and fill in all the values that describe this dataset, changing the examples
+4) Edit <b>_config.yml</b> and fill in all the values that describe this dataset, changing the examples
 
-3) Point <b>certificates.theodi.org</b> at the front page of the site and let it automatically fill in values (then add the embed code to _config.yml)
+5) Point <b>certificates.theodi.org</b> at the front page of the site and let it automatically fill in values (then add the embed code to _config.yml)
 
-4) Note that many of the certificate fields can be filled in by using the github features that are available under the "Data quality and accuracy" sections.
+6) Note that many of the certificate fields can be filled in by using the github features that are available under the "Data quality and accuracy" sections.
 
 
 To customise the look and feel of your dataset site
