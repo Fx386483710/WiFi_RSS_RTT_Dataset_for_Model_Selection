@@ -15,7 +15,7 @@
 			<div class="description-block">
 				<h3>{{ p.title }}</h3>
 				<p>{{ p.description }}</p>
-				<p class="objectHistory"><a href="{{ site.github.repository_url }}/commits/gh-pages{{ p.url }}" target="_blank">View history</a></p>
+				<p class="objectHistory"><a href="{{ site.github.repository_url }}/commits/gh-pages{{ p.url | remove: '.data' }}.csv" target="_blank">View history</a></p>
 			</div>
 <!--			<span property='dct:issued'>
 				<h3 property="rdfs:label">Last modified:</h3>
