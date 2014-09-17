@@ -1,11 +1,13 @@
 data-publishing-template
 ========================
 
+There is a step by step guide available <a href="http://training.theodi.org/resources/ODIDataTemplate.pdf" target="_blank">here</a>
+
 Provides a template for publishing a high quality open dataset. Each repository is designed to host a single dataset, consisting of one or more files.
 
 To create a dataset with open data certificate
 
-1) Fork the <a href="https://github.com/theodi/data-publishing-template" target="_blank">template repository</a> and rename the repository to something more akin to the dataset you will be publishing.
+1) Fork the <a href="https://github.com/theodi/data-publishing-template" target="_blank">template repository</a> and rename the repository to something more akin to the dataset you will be publishing. This can be done from the respositories settings menu. At the same time re-enable issues from the same screen.
 
 2) Upload <b>data files</b> into the <b>data/</b> directory.
 
