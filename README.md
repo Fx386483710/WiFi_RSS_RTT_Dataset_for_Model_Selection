@@ -1,7 +1,7 @@
 data-publishing-template
 ========================
 
-There is a step by step guide available <a href="http://training.theodi.org/resources/ODIDataTemplate.pdf" target="_blank">here</a>
+There is a step by step guide available <a href="http://training.theodi.org/resources/ODIDataTemplate.pdf" target="_blank">here</a>.
 
 Provides a template for publishing a high quality open dataset. Each repository is designed to host a single dataset, consisting of one or more files.
 
