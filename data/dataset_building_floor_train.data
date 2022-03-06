@@ -1,0 +1,8 @@
+---
+category: data
+filename: dataset_building_floor_train.csv
+weight: 1
+title: dataset_building_floor_train
+description: The training set of the dataset
+type: text/csv
+---
