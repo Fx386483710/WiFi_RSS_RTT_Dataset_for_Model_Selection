@@ -1,9 +1,38 @@
-data-publishing-template
+WiFi-RTT-RSS-dataset
 ========================
+
+This is a detailed WiFi RTT and RSS dataset of a whole floor of a university building. We divided the area of interest was divided into discrete grids and labelled them with correct ground truth coordinates and the LoS APs from the grid. The dataset contains WiFi RTT and RSS signal measures recorded in 642 reference points for 3 days and is well separated so that training points and testing points will not overlap. 
+
+The features of the dataset
+========================
+
+The features of the dataset is as follows:
+
+```
+Testbed area:	92 × 15 m2
+Grid size: 0.6 × 0.6 m2
+Number of reference points: 642
+Samples per reference point: 120
+Number of all data samples: 77040
+Number of training samples: 57960
+Number of testing samples: 19080
+Signal measure: WiFi RTT, WiFi RSS
+Collection ime interval: 3 days
+```
+
+Please note:
+
+* The RSS value -200 dBm indicates that the AP is too far away from the current reference point and no signals could be heard from it. 
+
+* The RTT value 100,000 mm indicates that no signal is received from the specific AP.
+
+
 
 There is a step by step guide available <a href="http://training.theodi.org/resources/ODIDataTemplate.pdf" target="_blank">here</a>.
 
 Provides a template for publishing a high quality open dataset. Each repository is designed to host a single dataset, consisting of one or more files.
+
+
 
 To create a dataset with open data certificate
 
