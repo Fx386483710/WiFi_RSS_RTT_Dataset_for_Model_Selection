@@ -10,7 +10,7 @@ Below is the layout of the testbed. The orange dots indicate the locations of th
 The features of the dataset
 ========================
 
-The features of the dataset is as follows:
+The features of the dataset are as follows:
 
 ```
 Testbed area:	92 × 15 m2
@@ -26,6 +26,9 @@ Collection ime interval: 3 days
 
 Dataset explanation
 ========================
+
+The columns of the dataset are as follows:
+
 ```
 Column 'X': the X coordinates of the sample.
 Column 'Y': the Y coordinates of the sample.
