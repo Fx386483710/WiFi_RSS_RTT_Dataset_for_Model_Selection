@@ -24,12 +24,6 @@ Signal measure: WiFi RTT, WiFi RSS
 Collection ime interval: 3 days
 ```
 
-Please note:
-
-* The RSS value -200 dBm indicates that the AP is too far away from the current reference point and no signals could be heard from it. 
-
-* The RTT value 100,000 mm indicates that no signal is received from the specific AP.
-
 Dataset explanation
 ========================
 ```
@@ -39,3 +33,9 @@ Column 'AP1 RTT(mm)', 'AP2 RTT(mm)', ..., 'AP13 RTT(mm)': the RTT measure from c
 Column 'AP1 RSS(dBm)', 'AP2 RSS(dBm)', ..., 'AP13 RSS(dBm)': the RSS measure from corresponding AP at a reference point.
 Column 'LOS APs': indicating which AP has a LOS to this reference point.
 ```
+
+Please note:
+
+* The RSS value -200 dBm indicates that the AP is too far away from the current reference point and no signals could be heard from it. 
+
+* The RTT value 100,000 mm indicates that no signal is received from the specific AP.
