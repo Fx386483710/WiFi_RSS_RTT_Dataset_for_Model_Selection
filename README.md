@@ -21,7 +21,7 @@ Number of all data samples: 77040
 Number of training samples: 57960
 Number of testing samples: 19080
 Signal measure: WiFi RTT, WiFi RSS
-Collection ime interval: 3 days
+Collection time interval: 3 days
 ```
 
 Dataset explanation
