@@ -1,6 +1,12 @@
 title: WiFi RTT&RSS dataset 
-description: This is a detailed WiFi RTT and RSS dataset of a whole floor of a university building. The testbed of this dataset in a 92 × 15 m2 area. The area of interest was divided into discrete 0.6 × 0.6 m2 grids and label them with correct ground truth coordinates and the LoS APs from the grid. The dataset contains WiFi RTT and RSS signal measures recorded in 642 reference points for 3 days and is well separated so that training points and testing points will not overlap. We recorded 120 scans per reference point and receive 77,040 location samples in total. Among which, 57960 samples are for training and the rest are for testing. 
+description: This is a detailed WiFi RTT and RSS dataset of a whole floor of a university building. The testbed of this dataset in a 92 × 15 m2 area. The area of interest was divided into discrete 0.6 × 0.6 m2 grids and label them with correct ground truth coordinates and the LoS APs from the grid. The dataset contains WiFi RTT and RSS signal measures recorded in 642 reference points for 3 days and is well separated so that training points and testing points will not overlap. We recorded 120 scans per reference point and receive 77,040 location samples in total. Among which, 57960 samples are for training and the rest are for testing. default_values:The RSS value -200 dBm indicates that the AP is too far away from the current reference point and no signals could be heard from it. The RTT value 100,000 mm indicates that no signal is received from the specific AP.
 
-default_values:The RSS value -200 dBm indicates that the AP is too far away from the current reference point and no signals could be heard from it. The RTT value 100,000 mm indicates that no signal is received from the specific AP.
+publisher_text: Foreign and Commonwealth Office
+publisher_url: http://data.gov.uk/publisher/foreign-and-commonwealth-office
 
-theme: jekyll-theme-slate
+license_text: UK Open Government Licence (OGL)
+license_url: http://reference.data.gov.uk/id/open-government-licence
+
+frequency: Monthly
+
+certificate_embed: <script src='https://certificates.theodi.org/datasets/2502/certificates/14842/badge.js'></script>
