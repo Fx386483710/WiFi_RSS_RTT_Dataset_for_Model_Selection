@@ -1,7 +1,9 @@
 WiFi-RTT-RSS-dataset
 ========================
-0. Please find the dataset in the 'data' folder.
+Please find the dataset in the 'data' folder.
+
 1. Building
+
 This is a detailed WiFi RTT and RSS dataset of a whole floor of a university building. We divided the area of interest was divided into discrete grids and labelled them with correct ground truth coordinates and the LoS APs from the grid. The dataset contains WiFi RTT and RSS signal measures recorded in 642 reference points for 3 days and is well separated so that training points and testing points will not overlap. 
 
 Below is the layout of the testbed. The orange dots indicate the locations of the RTT-enabled Access Point (AP). All measurements are taken in the grey area.
