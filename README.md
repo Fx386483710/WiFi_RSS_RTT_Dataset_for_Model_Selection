@@ -1,4 +1,4 @@
-WiFi-RTT-RSS-dataset
+WiFi dataset for model selection
 ========================
 We provide three real-world datasets for indoor positioning model selection purpose. We divided the area of interest was divided into discrete grids and labelled them with correct ground truth coordinates and the LoS APs from the grid. The dataset contains WiFi RTT and RSS signal measures and is well separated so that training points and testing points will not overlap. Please find the datasets in the 'data' folder.
 
