@@ -80,3 +80,30 @@ Please note:
 * The RSS value -200 dBm indicates that the AP is too far away from the current reference point and no signals could be heard from it. 
 
 * The RTT value 100,000 mm indicates that no signal is received from the specific AP.
+
+Citation request
+========================
+When using this dataset, please cite the following three items:
+```
+Feng, X., Nguyen, K. A., & Zhiyuan, L. (2024). WiFi RSS & RTT dataset with different LOS conditions for indoor positioning [Data set]. Zenodo. https://doi.org/10.5281/zenodo.11558792
+```
+ 
+```
+@article{feng2024wifi,
+  title={A WiFi RSS-RTT indoor positioning system using dynamic model switching algorithm},
+  author={Feng, Xu and Nguyen, Khuong An and Luo, Zhiyuan},
+  journal={IEEE Journal of Indoor and Seamless Positioning and Navigation},
+  year={2024},
+  publisher={IEEE}
+}
+```
+```
+@inproceedings{feng2023dynamic,
+  title={A dynamic model switching algorithm for WiFi fingerprinting indoor positioning},
+  author={Feng, Xu and Nguyen, Khuong An and Luo, Zhiyuan},
+  booktitle={2023 13th International Conference on Indoor Positioning and Indoor Navigation (IPIN)},
+  pages={1--6},
+  year={2023},
+  organization={IEEE}
+}
+```
