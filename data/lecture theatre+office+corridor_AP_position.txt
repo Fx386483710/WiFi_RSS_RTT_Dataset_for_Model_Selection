@@ -1,0 +1,11 @@
+lecture theatre
+AP X: 3,10,18.8,3,19
+AP Y: 9,9,9,21,21
+
+office
+AP X: 1,11,15,20,25
+AP Y: 5,-1,6,-1,5
+
+corridor
+AP X:2,17,38,48
+AP Y:7.5,6.8,9,5
